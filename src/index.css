@@ -1,0 +1,25 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar,.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #71560a;
+}
+
+.footer-container{
+  justify-content: center;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+}
